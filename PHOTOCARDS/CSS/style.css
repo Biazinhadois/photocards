@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    gap: 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+li {
+    position: relative;
+}
+
+
+.menu-superior {
+    align-items: center;
+    background: #1A1A1A;
+    list-style: none;
+    padding: 10px 0px;
+    position: fixed;
+}
+
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* Hover */
+li a:hover {
+    background: rgb(83, 83, 83);
+    border-radius: 100px;
+}
+
+
+.acervo {
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 35px;
+    background-color: #b2c9ffff;
+    color: #1A1A1A;
+    padding: 15px 40px;
+    margin-left: 760px;
+}
+
+
+.acervo:hover {
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 35px;
+    background-color: rgb(133, 155, 207);
+    color: #1A1A1A;
+    padding: 15px 40px;
+    margin-left: 760px;
+}
+
+.titulo {
+    font-size: 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.frase {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 300px;
+    font-size: 25px;
+}
+
+.logo {
+    justify-self: center;
+    display: flex;
+    width: 300px;
+}
+
+.box-photocards {
+    width: 500;
+    height: 700;
+    border-radius: 10px;
+    margin-left: 100px;
+    background-color: #121212;
+    margin-top: 30px;
+}
+
+.box-photocards:hover {
+    border: 1px solid rgb(115, 150, 255);
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;       
+    justify-content: center; 
+    padding: 20px;
+}
+
+.fotos_photocard{
+    width: 400px;
+}
+
+.preco-photocards {
+    color: #ffffff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.boxcad{
+    background-color: #b2c9ffff ;
+    width: 550px;
+    height: 1200px;
+    margin-left: 695px;
+    margin-top: 155px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.cadinput {
+    width: 400px;
+    background-color: white;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 60px;
+    color: #000000;
+}
+
+.titulo2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+.titulo3{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-left: 105px;
+    margin-top: 150px;
+}
+
+.sub-titulo {
+    color: #000000;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.cadbtn2{
+    margin-left: 100px;
+    height: 65px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(138, 86, 187);
+}
+
+.cadbtn2:hover{
+    margin-left: 100px;
+    height: 65px;
+    width: 150;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    color:white;
+    background-color: rgb(190, 120, 255) ;
+}
+
+.boxcad2{
+    background-color: #b2c9ffff ;
+    width: 600px;
+    height: 750px;
+    margin-left: 695px;
+    margin-top: 155px;
+    border-radius: 10px;
+}
+
+.cadbtn{
+    margin-left: 100px;
+    height: 65px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(138, 86, 187);
+}
+
+.cadbtn:hover{
+    margin-left: 100px;
+    height: 65px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    color:white;
+    background-color: rgb(190, 120, 255) ;
+}
+
+.raridade-photocards{
+    color: blueviolet;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
